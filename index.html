@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+    <div>
+        <img src="./money-master.png" alt="">
+    </div>
+    <div class="container">
+        <div class="income-box">
+            <h1>My income</h1>
+            <label for="">income</label>
+            <input type="text" id="income-field">
+        </div>
+       <div class="cost-field">
+            <div class="expense-box">
+                <h1>Expense</h1>
+                <div class="expense-field">
+                    <label for="">Food:</label>
+                    <input type="text" id="food-field">
+                </div>
+                <div class="expense-field">
+                    <label for="">Rent:</label>
+                    <input type="text" id="rent-field">
+                </div>
+                <div class="expense-field">
+                    <label for="">Cloth:</label>
+                    <input type="text" id="cloth-field">
+                </div>
+                <button id="calculate">Calculate</button>
+                <h1>Expense: <span id="total-expense">00</span> TK</h1>
+                <h1>Balance: <span id="balance">00</span> TK</h1>
+            </div>
+        
+            <div style="background-color: #6f0862cc; height: 385px; padding: 30px; margin:auto; color: white;">
+                <h2 class="save-amount">Save Amount</h2>
+                <input type="text" name="" id="save">
+                <span class="parcentage">%</span>
+                <button id="save-btn">Save</button>
+                <h1>Saving Amount: <span id="saving-amount">00</span> TK</h1>
+                <h1>Remaining Balance: <span id="remaining-balance">00</span> TK</h1>
+            </div>
+       </div>
+    </div>
+</section>
+    <script src="./main.js"></script>
+</body>
+</html>

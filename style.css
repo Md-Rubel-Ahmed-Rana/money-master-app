@@ -1,0 +1,120 @@
+
+section{
+    display: flex;
+    justify-content:center;
+    border-radius: 50px;
+}
+.cost-field{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.income-box{
+    background-color: blue;
+    text-align: center;
+    padding: 20px;
+}
+.income-box > h1, label{
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+}
+
+.income-box > h1{
+    font-size: 40px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.income-box > label{
+    font-size: 25px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.income-box > input{
+    font-size: 25px;
+    margin: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.expense-box{
+    background-color: gray;
+    padding: 20px;
+    height: 405px;
+}
+.expense-box > h1{
+    text-align: center;
+    color: white;
+    font-family: arial;
+    font-weight: bolder;
+    font-size: 30px;
+    margin: 0px;
+}
+.expense-box > button{
+    background-color: #17ff00;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 25px;
+    color: blue;
+    font-family: arial;
+    font-weight: bolder;
+    margin-left: 95px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+
+}
+
+.expense-field input{
+    margin: 10px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 20px;
+
+
+}
+.expense-field label{
+    font-size: 20px;
+}
+
+#rent-field{
+    margin-left: 8px;
+};
+
+
+#saving-box{
+    background-color: red;
+    padding: 30px;
+    color: white;
+    height: 385px;
+}
+
+#save-btn{
+    display: block;
+    padding: 10px 20px;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#save{
+    padding: 5px;
+    text-align: center;
+    margin-left: 100px;
+    font-size: 25px;
+    width: 60px;
+}
+
+.save-amount{
+    color: white;
+    text-align: center;
+}
+
+.parcentage{
+    color: white;
+    font-size: 30px;
+}
